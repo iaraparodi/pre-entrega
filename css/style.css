@@ -101,16 +101,15 @@ header div a img{
     margin-left: 20px;
 }
 
-.btn{
+.botonUno{
     width: 150px;
     height: 10px;
     padding: 20px;
-    margin-left: 250px;
     background-color: #1dcaff;
     /*ver centrado text*/
 }
 
-.btn:active{
+.botonUno:active{
     color: #1989AC;
 }
 
@@ -172,7 +171,7 @@ footer p{
     padding-left: 150px;
 }
 
-.fondoDois{
+.sectionTengoup img{
     width: 74.375rem;
     height: 500px;
     margin-left: 20px;
@@ -273,22 +272,33 @@ footer{
 
 /*aca empieza contato*/
 
-.sectionContacto{
+.mainJ{
     width: 100%;
-    height: 25rem;
+    height: 800px;
+    background-position: center;
+    display: flex;
+    background-image: url("../assets/img/fondopocitos.jpg");
+    background-repeat: no-repeat;
+}
+
+.sectionContacto{
+    width: 40%;
+    height: 700px;
+    background-color: #000A15;
 }
 
 .sectionContacto h2{
+    padding-top: 20px;
     text-align: left;
     font-size: xx-large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Louis B;
     color: white;
 }
 
 .sectionContacto p{
     text-align: left;
     font-size: 1.25rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Louis;
     color: white;
 }
 
