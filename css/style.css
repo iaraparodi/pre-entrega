@@ -63,8 +63,10 @@ header div a img{
 
 .sectionOne{
     width: 100%;
-    height: 21.875rem;
+    height: 300px;
+    display: grid;
     padding: 20px;
+    padding-left: 40px;
     background-color: #000A15;
     background-size: contain;
 }
@@ -73,12 +75,13 @@ header div a img{
     width: 100%;
     display: flex;
     padding: auto;
-    padding-top: 2.5rem;
+    margin: 40px;
     background-color: #000A15;
 }
 
 .sectionOne h1{
     padding-top: 20px;
+    margin-left: 250px;
     font-family: Louis B ;
     font-size: 2.5rem;
     color: white;
@@ -86,21 +89,25 @@ header div a img{
 
 .sectionOne p{
     padding-top: 5px;
+    margin-left: 250px;
     font-family: Louis ;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     color: white;
 }
 
 .sectionOne img{
-    width: 40%;
-    height: 40%;
+    width: 70%;
+    height: 350px;
+    margin-left: 20px;
 }
 
 .btn{
     width: 150px;
     height: 10px;
+    padding: 20px;
+    margin-left: 250px;
     background-color: #1dcaff;
-    padding: 20px; /*ver centrado text*/
+    /*ver centrado text*/
 }
 
 .btn:active{
@@ -111,9 +118,9 @@ header div a img{
 
 .sectionTwo{
     width: 100%;
-    height: 31.25rem;
+    height: 34.375rem;
     padding: 20px;
-    padding-top: 150px;
+    padding-top: 6.25rem;
     background-size: contain;
     background-color: #000A15;
 }
@@ -123,6 +130,7 @@ header div a img{
     font-family: Louis B ;
     font-size: 2.0rem;
     color: white;
+    margin-left: 170px;
 }
 
 .sectionTwo img{
@@ -130,13 +138,26 @@ header div a img{
     height: 21.875rem;
     margin: 1.25rem;
 }
+/*imagenes centradas*/
 
-/*falta texto al lado de foto*/
 .sectionTwo p{
     font-family: Louis ;
     font-size: 1.25rem;
     text-align: right;
     color: white;
+}
+
+footer{
+    background-color: #000A15;
+    height: 300px;
+}
+
+footer p{
+    color: white;
+    font-family: Louis B;
+    font-size: xx-large;
+    text-decoration: none;
+    margin-left: 290px;
 }
 
 /*aca arranca tengo casita-sign up*/
@@ -151,10 +172,10 @@ header div a img{
     padding-left: 150px;
 }
 
-.sectionTengoup img{
-    width: 87%;
-    height: 65%;
-    margin-left: 24px;
+.fondoDois{
+    width: 74.375rem;
+    height: 500px;
+    margin-left: 20px;
 }
 
 .sectionTengoup h1{
@@ -167,7 +188,7 @@ header div a img{
 
 .sectionSimple{
     width: 87%;
-    height: 80%;
+    height: 90%;
     background-position: center;
     background-color: #000A15;
     margin: 1.25rem;
@@ -177,7 +198,7 @@ header div a img{
     width: 87%;
     display: flex;
     padding: 20px;
-    padding-top: .625rem;
+    margin-top: .625rem;
     align-items: center;
 }
 
@@ -200,11 +221,16 @@ header div a img{
     height: 19%;
 }
 
+footer{
+    background-color: #000A15;
+    height: 150px;
+}
+
 /*aca arranca busco una casita up*/
 
 .sectionBuscoup{
     width: 100%;
-    height: 25rem;
+    height: 31.25rem;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("../assets/img/fondo\ 2.jpg");
@@ -214,7 +240,7 @@ header div a img{
 .sectionBuscoup h1{
     text-align: left;
     font-size: xx-large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Louis B;
     color: #1989AC;
 }
 
@@ -228,7 +254,7 @@ header div a img{
 .sectionSimpleB h2{
     text-align: left;
     font-size: xx-large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Louis B;
     color: white;
 }
 
@@ -236,7 +262,7 @@ header div a img{
     text-align: center;
     font-size: 1.25rem;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Louis;
 }
 
 .sectionSimpleB img{
