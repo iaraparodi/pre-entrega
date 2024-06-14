@@ -30,6 +30,7 @@ header{
 .navbarOne{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     gap: 1.25rem;
     list-style: none;
@@ -288,15 +289,16 @@ footer{
 .buscador{
     width: 100%;
     height: 100%;
+    display: flex;
     background-image: url("../assets/img/campo-5.jpg");
     background-position: left;
-    background-size: 100%;
-    background-repeat: repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .buscadorSec{
     width: 100%;
-    height: 800px;
+    height: 900px;
     background-position: center;
     display: flex;
     background-repeat: no-repeat;
@@ -318,6 +320,70 @@ footer{
     background-color: #000A15;
     margin-left: 400px;
 }
+
+@media(max-width:1024px){
+    .buscador{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .buscadorSec{
+        width: 100%;
+        height: 900px;
+    }
+
+    .buscador h2{
+        padding-left: 150px;
+    }
+
+    .sectionLupa{
+        height: 75%;
+        margin-left: 250px;
+    }
+}
+
+@media(max-width:768px){
+    .buscador{
+        width: 100%;
+        height: 900px;
+        background-size: cover;
+    }
+
+    .buscadorSec{
+        width: 100%;
+        height: 700px;
+        margin-top: 100px;
+    }
+
+    .buscador h2{
+        padding-left: 40px;
+    }
+}
+
+@media(max-width:425px){
+    .buscador{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .buscadorSec{
+        width: 100%;
+        height: 400px;
+    }
+
+    .buscador h2{
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    .sectionLupa{
+        height: 30%;
+        margin-left: 50px;
+    }
+}
+
 
 /*aca empieza contato*/
 

@@ -1,5 +1,0 @@
-proyectos a github 
-5 html (1 index + 4 paginas) total maquetado con css (flexbox/grids) 
-2 html con css full responsive (cualquier dispositivo)
-1 html booststrap + pseudoclases y pseudoelementos
-TODO A GITHUB CON LINK DE DEPLOY Y REPOSITORIO
