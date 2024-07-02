@@ -1,0 +1,27 @@
+.buscador{
+    @include flex (row,wrap,center,center,1.25rem);
+    width: 100%;
+    height: 639px;
+    background-image: url("../assets/img/campo-5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+        h2{
+            text-align: left;
+            font-size: xx-large;
+            font-family: $titulo;
+            color: $color-letras;
+            padding-right: 53.125rem;
+            margin-top: -18.75rem;
+        }
+    }
+
+/*
+.buscadorSec{
+    width: 100%;
+    height: 900px;
+    @include flex (row,wrap,center,center,1.25rem);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+*/

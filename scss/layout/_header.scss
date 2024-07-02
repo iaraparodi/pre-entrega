@@ -1,0 +1,13 @@
+header{
+    @include flex (row,wrap,center,center,1.25rem);
+    background-color: $color-fondo;
+    width: 100%;
+    height: auto;
+        a{
+            text-align: left;
+            text-decoration: none;
+            color: map-get($colorM, color1 );
+            font-size: 1.25rem;
+            font-family: $parrafo ;
+        }
+}
