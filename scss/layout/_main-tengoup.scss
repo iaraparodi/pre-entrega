@@ -8,29 +8,36 @@
     background-size: 100%;
     }
     .sectionTengoup{
-        width: auto;
-        height: auto;
-        img{
-            width: 74.375rem;
-            height: 450px;
-            margin-left: 20px;
-        }
-        h1{
-            padding-top: 20px;
-            padding-left: 20px;
-            font-size: xx-large;
-            font-family: $titulo;
-            color: $color-letras;
+        width: 74.375rem;
+        height: 450px;
+        margin-left: 20px;
+        margin-top: 2.5rem;
+        background-image: url("../assets/img/campo-8.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        .formuUno{
+            width: 420px;
+            margin-left: 100px;
+            backdrop-filter: blur(5px);
+            h1{
+                padding-top: 40px;
+                margin-bottom: 80px;
+                font-size: xx-large;
+                font-family: $titulo;
+                color: map-get($colorM, color1 );
+            }
         }
     }
 
 
-    .sectionSimple{
-        width: 1190px;
-        height: 450px;
-        background-color: $color-fondo;
-        margin: 1.25rem;
-        margin-left: 40px;
+.sectionSimple{
+    width: 1190px;
+    height: 450px;
+    background-color: $color-fondo;
+    margin: 1.25rem;
+    margin-left: 40px;
+    @include flex (row,wrap,center,center,1.25rem);
         h2{
             font-size: xx-large;
             font-family: $titulo;
@@ -50,9 +57,3 @@
         }
     }
 
-    .containerDos{
-        @include flex (row,wrap,center,center,1.25rem);
-        width: 87%;
-        padding: 20px;
-        margin-top: .625rem;
-    }

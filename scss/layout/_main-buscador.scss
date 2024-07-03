@@ -11,17 +11,24 @@
             font-size: xx-large;
             font-family: $titulo;
             color: $color-letras;
-            padding-right: 53.125rem;
+            padding-right: 400px;
             margin-top: -18.75rem;
+        }
+        .search-bar{
+            width: 100%;
+            max-width: 700px;
+            @include flex (row,wrap,center,center,1.25rem);
+            border-radius: 60px;
+            padding: 10px 20px;
+            padding-right: 30px;
+            backdrop-filter: blur(2px);
+            input{
+                background: transparent;
+                border: 0;
+                outline: none;
+                padding: 24px 20px;
+                font-size: 20px;
+            }
         }
     }
 
-/*
-.buscadorSec{
-    width: 100%;
-    height: 900px;
-    @include flex (row,wrap,center,center,1.25rem);
-    background-position: center;
-    background-repeat: no-repeat;
-}
-*/
