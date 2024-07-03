@@ -30,36 +30,32 @@
         }
     }
 
-
     .sectionSimple{
         width: 1190px;
         height: 450px;
         background-color: $color-fondo;
-        margin: 1.25rem;
+        margin: 1.875rem;
         margin-left: 40px;
-        h2{
-            font-size: xx-large;
-            font-family: $titulo;
-            color: map-get($colorM , color1 );
-        }
-        p{
-            padding: 10px;
-            font-family: $parrafo;
-            text-align: left;
-            font-size: 1.125rem;
-            color: map-get($colorM , color1 );
-        }
-        img{
-            width: 19%;
-            height: 19%;
-            padding: 10px;
-
-        }
-    }
-
-    .containerDos{
         @include flex (row,wrap,center,center,1.25rem);
-        width: 87%;
-        padding: 20px;
-        margin-top: .625rem;
-    }
+            h2{
+                margin-left: 20px;
+                margin-top: 20px;
+                font-size: xx-large;
+                font-family: $titulo;
+                color: map-get($colorM , color1 );
+            }
+            p{
+                padding: 10px;
+                margin-left: 40px;
+                font-family: $parrafo;
+                text-align: left;
+                font-size: 1.125rem;
+                color: map-get($colorM , color1 );
+            }
+            img{
+                margin-left: 40px;
+                width: 19%;
+                height: 19%;
+                padding: 10px;
+            }
+        }
