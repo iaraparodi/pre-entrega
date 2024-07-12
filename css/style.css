@@ -83,6 +83,11 @@ main .sectionOne .botonUno {
 main .sectionOne .botonUno:active {
   color: #1989AC;
 }
+main .sectionOne .botonUno a {
+  color: white;
+  font-family: Louis;
+  text-decoration: none;
+}
 main .sectionTwo {
   width: 100%;
   padding: 20px;
@@ -117,7 +122,7 @@ main .sectionTwo .galeriaIndex img:hover {
   gap: 1.25rem;
   width: 100%;
   height: 100%;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   background-image: url("../assets/img/campo-4.jpg");
   background-size: 100%;
@@ -125,8 +130,8 @@ main .sectionTwo .galeriaIndex img:hover {
 
 .sectionTengoup {
   width: 74.375rem;
-  height: 450px;
-  margin-left: 20px;
+  height: 28.125rem;
+  margin-left: 40px;
   margin-top: 2.5rem;
   background-image: url("../assets/img/campo-8.jpg");
   background-repeat: no-repeat;
@@ -134,13 +139,13 @@ main .sectionTwo .galeriaIndex img:hover {
   background-size: 100%;
 }
 .sectionTengoup .formuUno {
-  width: 420px;
-  margin-left: 100px;
+  width: 26.25rem;
+  margin-left: 6.25rem;
   backdrop-filter: blur 5px;
 }
 .sectionTengoup .formuUno h1 {
-  padding-top: 40px;
-  margin-bottom: 80px;
+  padding-top: 2.5rem;
+  margin-bottom: 5rem;
   font-size: xx-large;
   font-family: Louis B;
   color: white;
@@ -149,8 +154,8 @@ main .sectionTwo .galeriaIndex img:hover {
 .sectionSimple {
   width: 1190px;
   height: 450px;
+  background-position: center;
   background-color: #000A15;
-  margin: 1.875rem;
   margin-left: 40px;
   display: flex;
   flex-direction: row;
@@ -160,17 +165,12 @@ main .sectionTwo .galeriaIndex img:hover {
   gap: 1.25rem;
 }
 .sectionSimple h2 {
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 30px;
+  margin-top: 40px;
+  text-align: left;
   font-size: xx-large;
   font-family: Louis B;
   color: white;
-}
-.sectionSimple img {
-  margin-left: 40px;
-  width: 19%;
-  height: 19%;
-  padding: 10px;
 }
 .sectionSimple p {
   padding: 10px;
@@ -179,6 +179,12 @@ main .sectionTwo .galeriaIndex img:hover {
   text-align: left;
   font-size: 1.125rem;
   color: white;
+}
+.sectionSimple img {
+  margin-left: 40px;
+  width: 16%;
+  height: 16%;
+  padding: 10px;
 }
 
 .fondoM {
@@ -191,7 +197,7 @@ main .sectionTwo .galeriaIndex img:hover {
   width: 100%;
   height: 100%;
   background-position: top;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-image: url("../assets/img/fondo2.jpg");
   background-size: 100%;
 }
@@ -199,7 +205,7 @@ main .sectionTwo .galeriaIndex img:hover {
 .sectionBuscoup {
   width: 74.375rem;
   height: 450px;
-  margin-left: 20px;
+  margin-left: 40px;
   margin-top: 2.5rem;
   background-image: url("../assets/img/campo-7.jpg");
   background-repeat: no-repeat;
@@ -221,9 +227,9 @@ main .sectionTwo .galeriaIndex img:hover {
 
 .sectionSimple {
   width: 1190px;
-  height: 450px;
+  height: 500px;
+  background-position: center;
   background-color: #000A15;
-  margin: 1.875rem;
   margin-left: 40px;
   display: flex;
   flex-direction: row;
@@ -233,8 +239,9 @@ main .sectionTwo .galeriaIndex img:hover {
   gap: 1.25rem;
 }
 .sectionSimple h2 {
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 30px;
+  margin-top: 40px;
+  text-align: left;
   font-size: xx-large;
   font-family: Louis B;
   color: white;
@@ -249,8 +256,8 @@ main .sectionTwo .galeriaIndex img:hover {
 }
 .sectionSimple img {
   margin-left: 40px;
-  width: 19%;
-  height: 19%;
+  width: 16%;
+  height: 16%;
   padding: 10px;
 }
 

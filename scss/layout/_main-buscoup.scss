@@ -3,14 +3,14 @@
     width: 100%;
     height: 100%;
     background-position: top;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-image: url("../assets/img/fondo2.jpg");
     background-size: 100%;
     }
     .sectionBuscoup{
         width: 74.375rem;
         height: 450px;
-        margin-left: 20px;
+        margin-left: 40px;
         margin-top: 2.5rem;
         background-image: url("../assets/img/campo-7.jpg");
         background-repeat: no-repeat;
@@ -32,14 +32,15 @@
 
     .sectionSimple{
         width: 1190px;
-        height: 450px;
+        height: 500px;
+        background-position: center;
         background-color: $color-fondo;
-        margin: 1.875rem;
         margin-left: 40px;
         @include flex (row,wrap,center,center,1.25rem);
             h2{
-                margin-left: 20px;
-                margin-top: 20px;
+                margin-left: 30px;
+                margin-top: 40px;
+                text-align: left;
                 font-size: xx-large;
                 font-family: $titulo;
                 color: map-get($colorM , color1 );
@@ -54,8 +55,8 @@
             }
             img{
                 margin-left: 40px;
-                width: 19%;
-                height: 19%;
+                width: 16%;
+                height: 16%;
                 padding: 10px;
             }
         }

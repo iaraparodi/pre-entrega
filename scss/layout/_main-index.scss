@@ -32,6 +32,11 @@ main{
                         &:active{
                             color: #1989AC;
                         }
+                        a{
+                        color: map-get($colorM, color1 );
+                        font-family: $parrafo;
+                        text-decoration: none;
+                        }
                     }
         }
 
