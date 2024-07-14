@@ -1,5 +1,5 @@
 .navbarOne{
-    @include flex (row,wrap,left,center,1.25rem);
+    @include flex (row,wrap,center,center,1.25rem);
     max-width: 1440px;
     height: min-content;
     list-style: none;
