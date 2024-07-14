@@ -1,31 +1,30 @@
 /* de desktop a mobile orden decreciente*/
-@media(max-width:1024px){
+@media(max-width:1440px),(min-height:505px){
     .buscador{
-        width: 100%;
-        height: 100%;
+        max-width: 100%;
+        min-height: 100%;
         background-size: cover;
     }
 
     .buscadorSec{
-        width: 100%;
-        height: 900px;
+        max-width: 100%;
+        min-height: 900px;
     }
 
     .buscador h2{
         padding-left: 150px;
+        padding-top: 150px;
     }
 
     .sectionLupa{
-        height: 75%;
+        min-height: 75%;
         margin-left: 250px;
     }
 }
 
-@media(max-width:768px){
+@media(max-width:768px),(min-height:1024px){
     .buscador{
         width: 100%;
-        height: 900px;
-        background-size: cover;
     }
 
     .buscadorSec{

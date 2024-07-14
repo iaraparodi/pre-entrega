@@ -1,8 +1,8 @@
 header{
     @include flex (row,wrap,center,center,1.25rem);
     background-color: $color-fondo;
-    width: 100%;
-    height: auto;
+    max-width: 1440px;
+    min-height: auto;
         a{
             text-align: left;
             text-decoration: none;

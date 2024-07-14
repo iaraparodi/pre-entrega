@@ -1,23 +1,23 @@
 .fondo{
     @include flex (row,wrap,center,center,1.25rem);
-    width: 100%;
-    height: 100%;
+    max-width: 74.375rem;
+    min-height: 56.25rem;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("../assets/img/campo-4.jpg");
     background-size: 100%;
     }
     .sectionTengoup{
-        width: 74.375rem;
-        height: 28.125rem;
+        max-width: max-content;
+        min-height: 28.125rem;
         margin-left: 40px;
         margin-top: 2.5rem;
         background-image: url("../assets/img/campo-8.jpg");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 100%;
+        background-size: 300%;
         .formuUno{
-            width: 26.25rem;
+            max-width: 26.25rem;
             margin-left: 6.25rem;
             backdrop-filter: blur (5px);
             h1{
@@ -32,8 +32,8 @@
 
 
     .sectionSimple{
-        width: 1190px;
-        height: 450px;
+        max-width: 1190px;
+        min-height: 450px;
         background-position: center;
         background-color: $color-fondo;
         margin-left: 40px;
@@ -56,8 +56,8 @@
             }
             img{
                 margin-left: 40px;
-                width: 16%;
-                height: 16%;
+                max-width: 16%;
+                min-height: 16%;
                 padding: 10px;
             }
         }

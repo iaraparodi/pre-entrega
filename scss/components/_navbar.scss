@@ -1,9 +1,8 @@
 .navbarOne{
     @include flex (row,wrap,left,center,1.25rem);
-    width: 100%;
+    max-width: 1440px;
     height: min-content;
     list-style: none;
-    padding-right: 1.25rem;
     font-family: Louis ;
     background-color: $color-fondo;
             li{

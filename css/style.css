@@ -30,8 +30,8 @@ header {
   align-items: center;
   gap: 1.25rem;
   background-color: #000A15;
-  width: 100%;
-  height: auto;
+  max-width: 1440px;
+  min-height: auto;
 }
 header a {
   text-align: left;
@@ -52,33 +52,33 @@ main {
   color: white;
 }
 main .sectionOne {
-  width: 100%;
-  height: 300px;
+  max-width: 1440px;
+  min-height: fit-content;
   display: grid;
   padding: 20px;
   padding-left: 40px;
 }
 main .sectionOne h1 {
   padding-top: 20px;
-  margin-left: 250px;
+  margin-left: 50px;
   font-family: Louis B;
   font-size: 2.5rem;
   color: white;
 }
 main .sectionOne p {
   padding-top: 5px;
-  margin-left: 250px;
+  margin-left: 50px;
   font-family: Louis;
   font-size: 1.125rem;
   color: white;
 }
 main .sectionOne img {
-  width: 70%;
-  height: 350px;
+  max-width: 600px;
+  min-height: 350px;
   margin-left: 20px;
 }
 main .sectionOne .botonUno {
-  margin-left: 250px;
+  margin-left: 50px;
 }
 main .sectionOne .botonUno:active {
   color: #1989AC;
@@ -89,24 +89,23 @@ main .sectionOne .botonUno a {
   text-decoration: none;
 }
 main .sectionTwo {
-  width: 100%;
+  max-width: 1440px;
   padding: 20px;
-  padding-top: 12.5rem;
   background-size: contain;
 }
 main .sectionTwo h2 {
   font-family: Louis B;
   font-size: 2rem;
-  margin-left: 75px;
+  margin-left: 20px;
 }
 main .sectionTwo .galeriaIndex {
-  width: 100%;
-  height: 500px;
-  padding-left: 160px;
+  max-width: 1440px;
+  min-height: 500px;
+  padding-left: 50px;
 }
 main .sectionTwo .galeriaIndex img {
-  width: 21.875rem;
-  height: 21.875rem;
+  max-width: 21.875rem;
+  min-height: 21.875rem;
   margin: 1.25rem;
 }
 main .sectionTwo .galeriaIndex img:hover {
@@ -120,8 +119,8 @@ main .sectionTwo .galeriaIndex img:hover {
   justify-content: center;
   align-items: center;
   gap: 1.25rem;
-  width: 100%;
-  height: 100%;
+  max-width: 74.375rem;
+  min-height: 56.25rem;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("../assets/img/campo-4.jpg");
@@ -129,17 +128,17 @@ main .sectionTwo .galeriaIndex img:hover {
 }
 
 .sectionTengoup {
-  width: 74.375rem;
-  height: 28.125rem;
+  max-width: max-content;
+  min-height: 28.125rem;
   margin-left: 40px;
   margin-top: 2.5rem;
   background-image: url("../assets/img/campo-8.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 300%;
 }
 .sectionTengoup .formuUno {
-  width: 26.25rem;
+  max-width: 26.25rem;
   margin-left: 6.25rem;
   backdrop-filter: blur 5px;
 }
@@ -152,8 +151,8 @@ main .sectionTwo .galeriaIndex img:hover {
 }
 
 .sectionSimple {
-  width: 1190px;
-  height: 450px;
+  max-width: 1190px;
+  min-height: 450px;
   background-position: center;
   background-color: #000A15;
   margin-left: 40px;
@@ -182,8 +181,8 @@ main .sectionTwo .galeriaIndex img:hover {
 }
 .sectionSimple img {
   margin-left: 40px;
-  width: 16%;
-  height: 16%;
+  max-width: 16%;
+  min-height: 16%;
   padding: 10px;
 }
 
@@ -194,8 +193,8 @@ main .sectionTwo .galeriaIndex img:hover {
   justify-content: center;
   align-items: center;
   gap: 1.25rem;
-  width: 100%;
-  height: 100%;
+  max-width: 1440px;
+  min-height: 900px;
   background-position: top;
   background-repeat: repeat;
   background-image: url("../assets/img/fondo2.jpg");
@@ -203,8 +202,8 @@ main .sectionTwo .galeriaIndex img:hover {
 }
 
 .sectionBuscoup {
-  width: 74.375rem;
-  height: 450px;
+  max-width: 74.375rem;
+  min-height: 450px;
   margin-left: 40px;
   margin-top: 2.5rem;
   background-image: url("../assets/img/campo-7.jpg");
@@ -213,7 +212,7 @@ main .sectionTwo .galeriaIndex img:hover {
   background-size: 100%;
 }
 .sectionBuscoup .formuUno {
-  width: 420px;
+  max-width: 420px;
   margin-left: 100px;
   backdrop-filter: blur 5px;
 }
@@ -226,8 +225,8 @@ main .sectionTwo .galeriaIndex img:hover {
 }
 
 .sectionSimple {
-  width: 1190px;
-  height: 450px;
+  max-width: 1190px;
+  min-height: 450px;
   background-position: center;
   background-color: #000A15;
   margin-left: 40px;
@@ -256,8 +255,8 @@ main .sectionTwo .galeriaIndex img:hover {
 }
 .sectionSimple img {
   margin-left: 40px;
-  width: 16%;
-  height: 16%;
+  max-width: 16%;
+  min-height: 16%;
   padding: 10px;
 }
 
@@ -268,11 +267,10 @@ main .sectionTwo .galeriaIndex img:hover {
   justify-content: center;
   align-items: center;
   gap: 1.25rem;
-  width: 100%;
-  height: 639px;
+  max-width: 1440px;
+  min-height: 900px;
   background-image: url("../assets/img/campo-5.jpg");
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 .buscador h2 {
@@ -280,11 +278,9 @@ main .sectionTwo .galeriaIndex img:hover {
   font-size: xx-large;
   font-family: Louis B;
   color: #1989AC;
-  padding-right: 400px;
-  margin-top: -18.75rem;
+  margin-top: -20px;
 }
 .buscador .search-bar {
-  width: 100%;
   max-width: 700px;
   display: flex;
   flex-direction: row;
@@ -312,10 +308,9 @@ main .sectionTwo .galeriaIndex img:hover {
   justify-content: left;
   align-items: center;
   gap: 1.25rem;
-  width: 100%;
+  max-width: 1440px;
   height: min-content;
   list-style: none;
-  padding-right: 1.25rem;
   font-family: Louis;
   background-color: #000A15;
 }
@@ -335,29 +330,28 @@ main .sectionTwo .galeriaIndex img:hover {
 }
 
 /* de desktop a mobile orden decreciente*/
-@media (max-width: 1024px) {
+@media (max-width: 1440px), (min-height: 505px) {
   .buscador {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    min-height: 100%;
     background-size: cover;
   }
   .buscadorSec {
-    width: 100%;
-    height: 900px;
+    max-width: 100%;
+    min-height: 900px;
   }
   .buscador h2 {
     padding-left: 150px;
+    padding-top: 150px;
   }
   .sectionLupa {
-    height: 75%;
+    min-height: 75%;
     margin-left: 250px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 768px), (min-height: 1024px) {
   .buscador {
     width: 100%;
-    height: 900px;
-    background-size: cover;
   }
   .buscadorSec {
     width: 100%;

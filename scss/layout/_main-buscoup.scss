@@ -1,15 +1,15 @@
 .fondoM{
     @include flex (row,wrap,center,center,1.25rem);
-    width: 100%;
-    height: 100%;
+    max-width: 1440px;
+    min-height: 900px;
     background-position: top;
     background-repeat: repeat;
     background-image: url("../assets/img/fondo2.jpg");
     background-size: 100%;
     }
     .sectionBuscoup{
-        width: 74.375rem;
-        height: 450px;
+        max-width: 74.375rem;
+        min-height: 450px;
         margin-left: 40px;
         margin-top: 2.5rem;
         background-image: url("../assets/img/campo-7.jpg");
@@ -17,7 +17,7 @@
         background-position: center;
         background-size: 100%;
         .formuUno{
-            width: 420px;
+            max-width: 420px;
             margin-left: 100px;
             backdrop-filter: blur (5px);
             h1{
@@ -31,8 +31,8 @@
     }
 
     .sectionSimple{
-        width: 1190px;
-        height: 450px;
+        max-width: 1190px;
+        min-height: 450px;
         background-position: center;
         background-color: $color-fondo;
         margin-left: 40px;
@@ -55,8 +55,8 @@
             }
             img{
                 margin-left: 40px;
-                width: 16%;
-                height: 16%;
+                max-width: 16%;
+                min-height: 16%;
                 padding: 10px;
             }
         }
